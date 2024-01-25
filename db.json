@@ -1,0 +1,325 @@
+{
+  "payoraddresses": [],
+  "payorpersons": [
+    {
+      "id": "402880418a16dbf9018a18649a06000f",
+      "name": "PIC TAHER",
+      "position": "MGR",
+      "phone": "89898989",
+      "email": "dummy@email.com",
+      "status": "active"
+    },
+    {
+      "id": "402880418a16dbf9018a1864c7d50010",
+      "name": "PIC DEDI",
+      "position": "CEO",
+      "phone": "89898989",
+      "email": "dummy@email.com",
+      "status": "active"
+    },
+    {
+      "id": "402880418a16dbf9018a1864729d000e",
+      "name": "PIC ALDI UPDATED",
+      "position": "UPDATED",
+      "phone": "89898989",
+      "email": "dummy@email.com",
+      "status": "active"
+    },
+    {
+      "id": "402880418a188393018a1886073b0000",
+      "name": "ALDI TAHER",
+      "position": "UPDATED",
+      "email": "dummy@email.com",
+      "phone": "89898989"
+    },
+    {
+      "name": "Hello",
+      "position": "Engineering Manager",
+      "email": "dcahyono@alamisharia.co.id",
+      "phone": "3453454",
+      "id": "AYqvWAr"
+    }
+  ],
+  "locations": [
+    {
+      "id": "11",
+      "name": "Aceh (NAD)",
+      "level": "1",
+      "parentId": "-",
+      "postalCode": null
+    },
+    {
+      "id": "12",
+      "name": "Bali",
+      "level": "1",
+      "parentId": "-",
+      "postalCode": null
+    },
+    {
+      "id": "578",
+      "name": "Kab. Asahan",
+      "level": "2",
+      "parentId": "44",
+      "postalCode": null
+    },
+    {
+      "id": "579",
+      "name": "Kab. Batu Bara",
+      "level": "2",
+      "parentId": "44",
+      "postalCode": null
+    },
+    {
+      "id": "5ec5e022-dcc1-43d6-af71-0f05c39028ba",
+      "name": "Petukangan Selatan",
+      "level": "4",
+      "parentId": "e294a3ea-da4d-471a-afda-a4c4f7e2ed46",
+      "postalCode": "12270"
+    },
+    {
+      "id": "e294a3ea-da4d-471a-afda-a4c4f7e2ed46",
+      "name": "Pesanggrahan",
+      "level": "3",
+      "parentId": "159",
+      "postalCode": null
+    },
+    {
+      "id": "159",
+      "name": "Kota Jakarta Selatan",
+      "level": "2",
+      "parentId": "16",
+      "postalCode": null
+    },
+    {
+      "id": "16",
+      "name": "DKIJakarta",
+      "level": "1",
+      "parentId": "-",
+      "postalCode": null
+    },
+    {
+      "id": "100",
+      "name": "New Location Level 1",
+      "level": "1",
+      "parentId": "-",
+      "postalCode": null
+    },
+    {
+      "id": "101",
+      "name": "New Location Level 1",
+      "level": "1",
+      "parentId": "-",
+      "postalCode": null
+    },
+    {
+      "id": "102",
+      "name": "New Location Level 2",
+      "level": "2",
+      "parentId": "100",
+      "postalCode": null
+    },
+    {
+      "id": "103",
+      "name": "New Location Level 3",
+      "level": "3",
+      "parentId": "102",
+      "postalCode": null
+    },
+    {
+      "id": "104",
+      "name": "New Location Level 4",
+      "level": "4",
+      "parentId": "103",
+      "postalCode": "12345"
+    }
+  ],
+  "collateral-type": [
+    {
+      "id": "1",
+      "code": "K-001",
+      "name": "Kendaraan"
+    },
+    {
+      "id": "2",
+      "code": "K-002",
+      "name": "Tanah"
+    },
+    {
+      "id": "3",
+      "code": "K-003",
+      "name": "Bangunan"
+    },
+    {
+      "id": "4",
+      "code": "K-004",
+      "name": "Mesin"
+    },
+    {
+      "id": "5",
+      "code": "K-005",
+      "name": "Perabot"
+    },
+    {
+      "id": "6",
+      "code": "K-006",
+      "name": "Lainnya"
+    }
+  ],
+  "collateral-binding-type": [
+    {
+      "id": "1",
+      "code": "J-001",
+      "name": "Hak Tanggungan"
+    },
+    {
+      "id": "2",
+      "code": "J-002",
+      "name": "Jaminan Fidusia"
+    },
+    {
+      "id": "3",
+      "code": "J-003",
+      "name": "Jaminan Lainnya"
+    }
+  ],
+  "financing-object-type": [
+    {
+      "id": "1",
+      "code": "O-001",
+      "name": "Rumah Tapak"
+    },
+    {
+      "id": "2",
+      "code": "O-002",
+      "name": "Apartemen"
+    },
+    {
+      "id": "3",
+      "code": "O-003",
+      "name": "Ruko"
+    },
+    {
+      "id": "4",
+      "code": "O-004",
+      "name": "Rukan"
+    },
+    {
+      "id": "5",
+      "code": "O-005",
+      "name": "Rusun"
+    },
+    {
+      "id": "6",
+      "code": "O-006",
+      "name": "Kondominium"
+    }
+  ],
+  "developer-status": [
+    {
+      "id": "1",
+      "code": "S-001",
+      "name": "Mitra"
+    },
+    {
+      "id": "2",
+      "code": "S-002",
+      "name": "Non-Mitra"
+    }
+  ],
+  "financing-object-city": [
+    {
+      "id": "1",
+      "code": "C-001",
+      "name": "Jakarta"
+    },
+    {
+      "id": "2",
+      "code": "C-002",
+      "name": "Bogor"
+    },
+    {
+      "id": "3",
+      "code": "C-003",
+      "name": "Depok"
+    },
+    {
+      "id": "4",
+      "code": "C-004",
+      "name": "Tangerang"
+    },
+    {
+      "id": "5",
+      "code": "C-005",
+      "name": "Bekasi"
+    }
+  ],
+  "proof-of-ownership": [
+    {
+      "id": "1",
+      "code": "P-001",
+      "name": "SHM"
+    },
+    {
+      "id": "2",
+      "code": "P-002",
+      "name": "SHGB"
+    },
+    {
+      "id": "3",
+      "code": "P-003",
+      "name": "SHGU"
+    },
+    {
+      "id": "4",
+      "code": "P-004",
+      "name": "AJB"
+    },
+    {
+      "id": "5",
+      "code": "P-005",
+      "name": "SKMHT"
+    },
+    {
+      "id": "6",
+      "code": "P-006",
+      "name": "SKT"
+    },
+    {
+      "id": "7",
+      "code": "P-007",
+      "name": "SKM"
+    },
+    {
+      "id": "8",
+      "code": "P-008",
+      "name": "SKHGB"
+    },
+    {
+      "id": "9",
+      "code": "P-009",
+      "name": "SKTSHGB"
+    },
+    {
+      "id": "10",
+      "code": "P-010",
+      "name": "SKTSHGU"
+    }
+  ],
+  "ownership-status": [
+    {
+      "id": "1",
+      "code": "O-001",
+      "name": "Milik Sendiri"
+    },
+    {
+      "id": "2",
+      "code": "O-002",
+      "name": "Milik Orang Lain"
+    },
+    {
+      "id": "3",
+      "code": "O-003",
+      "name": "Milik Bersama"
+    }
+  ]
+}
