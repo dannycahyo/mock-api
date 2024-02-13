@@ -15,20 +15,23 @@ server.get("/financing/house-type/find-all", (req, res) => {
   });
 });
 
-server.get("/synchronize-collateral", (req, res) => {
-  const { registrationNumber } = req.body;
-  const db = router.db;
-  const sycnhronizeCollateralData = db.get("synchronize-collateral");
+server.post(
+  "/fos/applications/:applicationId/synchronize-collateral",
+  (req, res) => {
+    const { registrationNumber } = req.body;
+    const db = router.db;
+    const sycnhronizeCollateralData = db.get("synchronize-collateral");
 
-  const collateralData = sycnhronizeCollateralData.value();
+    const collateralData = sycnhronizeCollateralData.value();
 
-  res.jsonp({
-    data: {
-      registrationNumber,
-      ...collateralData,
-    },
-  });
-});
+    res.status(200).jsonp({
+      data: {
+        registrationNumber,
+        ...collateralData,
+      },
+    });
+  },
+);
 
 server.use(
   jsonServer.rewriter({
