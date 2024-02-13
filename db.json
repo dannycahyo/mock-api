@@ -1,4 +1,15 @@
 {
+  "synchronize-collateral": {
+    "collateralType": "K-001",
+    "proofOfOwnership": "P-001",
+    "ownershipStatus": "O-001",
+    "typeOfCollateralBinding": "J-001",
+    "collateralCity": "C-001",
+    "logamMulia": {
+      "karat": 100,
+      "berat": 200
+    }
+  },
   "collateral-types": {
     "data": [
       {
